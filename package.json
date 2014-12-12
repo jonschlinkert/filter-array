@@ -1,0 +1,45 @@
+{
+  "name": "filter-array",
+  "description": "Iterates over the elements in an array, returning an array with only the elements for which the callback returns truthy.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/filter-array",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/filter-array.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/filter-array/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/filter-array/blob/master/LICENSE-MIT"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "dependencies": {
+    "make-iterator": "^0.1.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "array",
+    "elements",
+    "filter",
+    "iterate",
+    "util",
+    "utilities",
+    "utils",
+    "values"
+  ]
+}
