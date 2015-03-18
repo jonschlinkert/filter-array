@@ -8,6 +8,7 @@
 npm i filter-array --save
 ```
 
+## Usage
 ### [.filterArray](./index.js#L39)
 
 Filter array against given glob patterns, regex or given function.
