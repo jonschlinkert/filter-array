@@ -23,14 +23,18 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha",
+    "test-cov": "istanbul cover _mocha",
+    "test-travis": "istanbul cover _mocha --report lcovonly"
   },
   "dependencies": {
-    "make-iterator": "^0.1.1"
+    "arr-filter": "^1.1.0",
+    "kind-of": "^1.1.0",
+    "micromatch": "^2.1.0"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+    "istanbul-harmony": "^0.3.1",
+    "mocha": "^2.2.1"
   },
   "keywords": [
     "array",
