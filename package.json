@@ -16,8 +16,9 @@
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/jonschlinkert/filter-array/blob/master/LICENSE-MIT"
+    "url": "https://github.com/jonschlinkert/filter-array/blob/master/LICENSE"
   },
+  "files": ["index.js"],
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
@@ -38,12 +39,9 @@
   },
   "keywords": [
     "array",
+    "match",
     "elements",
     "filter",
-    "iterate",
-    "util",
-    "utilities",
-    "utils",
-    "values"
+    "iterate"
   ]
 }

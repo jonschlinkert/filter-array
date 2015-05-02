@@ -15,9 +15,6 @@ var mm = require('micromatch');
  * Filter array against given glob
  * patterns, regex or given function.
  *
- * For more examples see the [tests](./test.js)
- *
- * **Example:**
  * ```js
  * var filter = require('filter-array');
  *
@@ -35,6 +32,7 @@ var mm = require('micromatch');
  * @return {Array}
  * @api public
  */
+
 module.exports = function filterArray(arr, filters, opts) {
   if (arr.length === 0) {
     return [];

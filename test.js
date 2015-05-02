@@ -7,6 +7,7 @@
 
 'use strict';
 
+/* deps: mocha istanbul-harmony */
 var assert = require('assert');
 var filter = require('./index');
 
