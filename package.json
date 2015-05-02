@@ -1,7 +1,7 @@
 {
   "name": "filter-array",
   "description": "Iterates over the elements in an array, returning an array with only the elements for which the callback returns truthy.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/jonschlinkert/filter-array",
   "author": {
     "name": "Jon Schlinkert",
